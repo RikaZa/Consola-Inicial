@@ -1,17 +1,11 @@
 ﻿namespace OneApp
 {
-    class Player
+    public class Player
     {
-        public string nameAccount;
-        public char passwordAccount;
-        public string namePlayer;
-        public string emailAccount;
-        public string generAcount;
+        public string nameAccount, passwordAccount, namePlayer, emailAccount, generAcount, location, accesAccount, expancionServer, faction;
         public int agePlayer;
-        public string location;
-        public string accesAccount;
-        public string expancionServer;
-        public string faction;
+  
+ 
     }
 
 }
