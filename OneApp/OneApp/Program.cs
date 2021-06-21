@@ -6,6 +6,20 @@ using System.Threading.Tasks;
 
 namespace OneApp
 {
+    public class Arma{
+        public string TipoArma;
+        public string CombateArma;
+        public string NombreArma;
+        public int Daño;
+        public int Durabilidad;
+        public int IndiceGolpe;
+        public int IndiceCritico;
+        public int Esquivar;
+        public int Daño;
+        public int Defensa;
+        public int Fuerza;
+        
+    }
     public class Program
     {
         public static void Main(string[] args)
