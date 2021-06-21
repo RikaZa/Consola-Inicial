@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 namespace OneApp
 {
     public class Arma{
-        public string TipoArma;
-        public string CombateArma;
-        public string NombreArma;
-        public int Daño;
-        public int Durabilidad;
-        public int IndiceGolpe;
-        public int IndiceCritico;
-        public int Esquivar;
-        public int Defensa;
-        public int Fuerza;
+        public string TipoArma { get; set; };
+        public string CombateArma { get; set; };
+        public string NombreArma { get; set; };
+        public int Daño { get; set; };
+        public int Durabilidad { get; set; };
+        public int IndiceGolpe { get; set; };
+        public int IndiceCritico { get; set; };
+        public int Esquivar { get; set; };
+        public int Defensa { get; set; };
+        public int Fuerza { get; set; };
         
     }
     public class Program
