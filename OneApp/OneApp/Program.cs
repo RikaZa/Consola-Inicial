@@ -15,7 +15,6 @@ namespace OneApp
         public int IndiceGolpe;
         public int IndiceCritico;
         public int Esquivar;
-        public int Daño;
         public int Defensa;
         public int Fuerza;
         
