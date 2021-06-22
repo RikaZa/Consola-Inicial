@@ -154,6 +154,9 @@ namespace Wow
                 ProfesionSecundaria = profesionSecundaria
 
             };
+            Console.Clear();
+            Console.WriteLine(nuevoPersonaje.infPersonaje());
+            Console.ReadKey();
 
             //***************** DEFINIR VARIABLES DE ARMAS *********************
 

@@ -12,6 +12,14 @@
         public string Profecion { get; set; }
         public int Nivel  { get; set; }
         public string ProfesionSecundaria { get; set; }
+
+        public string infPersonaje() {
+
+            return $"Nombre: {NombrePersonaje}\n" + $"Facción: {Faccion}\n" + $"Genero: {GeneroPersonaje}\n" + $"Raza: {Raza}\n" +
+                $"Clase: {Clase}\n" + $"JUGADOR TIPO: {TipoPersonaje}\n" + $"Profesión: {Profecion}\n" + $"Tu comenzaste con el nivel: {Nivel}\n";
+
+        }
     }
+
     
 }
