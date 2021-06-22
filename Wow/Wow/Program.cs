@@ -96,6 +96,10 @@ namespace Wow
             {
                 Console.Clear();
             }
+            if (option == 3) {
+
+                Console.Clear();
+            }
             
             //***************** DEFINIR VARIABLES DE PERSONAJE *********************
 
@@ -104,16 +108,35 @@ namespace Wow
 
             // ASIGANAR DATOS VARIABLES PERSONAJE
 
+            Console.WriteLine("Ingresa el nombre de tu personaje:");
             nombrePersonaje = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Elige tu Facción:\n"+ "\n1 = HORDA\n2 = ALIANZA");
             faccion = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Elige tu genero:\n" + "\n1 = HOMBRE\n2 = MUJER");
             generoPersonaje = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Elige tu RAZA:\n" + "\n1 = HUMANO\n2 = HORCO");
             raza = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Elige tu RAZA:\n" + "\n1 = PALADIN\n2 = GERRERO");
             clase = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Elige tu RAZA:\n" + "\n1 = DPS\n2 = HELER\n3 = TANQUE");
             roll = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("ELIGE:\n" + "\n1 = CASTER\n2 = MELE");
             tipoPersonaje = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Elige tu profesión:\n" + "\n1 = INGENIERO\n2 = HERRERO\n3 = ALQUIMISTA");
             profecion = Console.ReadLine();
-            nivel = int.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Elige tu profesión secundaria:\n" + "\n1 = COCINERO\n2 = MINERO\n3 = TALADOR");
             profesionSecundaria = Console.ReadLine();
+            Console.Clear();
+            nivel = 1;
+            
 
             // DATOS DE PERSONAJE 
 
