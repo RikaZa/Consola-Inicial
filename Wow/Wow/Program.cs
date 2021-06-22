@@ -90,15 +90,13 @@ namespace Wow
 
             if (option == 1) {
                 Console.WriteLine(nuevoPlayer.datosPlayer());
+                Console.ReadKey();
             }
             if( option == 2)
-            { 
-
+            {
+                Console.Clear();
             }
             
-
-
-
             //***************** DEFINIR VARIABLES DE PERSONAJE *********************
 
             string nombrePersonaje, faccion, generoPersonaje, raza, clase, roll, tipoPersonaje, profecion, profesionSecundaria;
